@@ -3,6 +3,7 @@
 In this challenge, there was an evaluation conducted on the ratings of various establishments across the United Kingdom.
 For the initial set up, MongoDB was used to store data that was imported from the 'establishments.json' file that was located in the starter files. The database was named 'uk_food' and the collection was named 'establishments'. 
 When importing the data, be sure to access the 'Resources' folder from terminal, and use: mongoimport --db uk_food --collection establishments --drop --file establishments.json --jsonArray
+
 An instance of the MongoClient was created, and the databases were listed along with the collections, and it was confirmed that 'uk_food' and 'establishments' were listed and present in the database. 
 
 Updating the database:
